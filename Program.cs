@@ -110,7 +110,7 @@ public class cardHolder{
 
 
         //User Prompt
-        Console.WriteLine("Hello, Welcome to Naa's ATM");
+        Console.WriteLine("Hello, Welcome to C# ATM");
         System.Console.WriteLine("Please insert your debit card: ");
         String debitCardNum = "";
         cardHolder currentUser;
@@ -140,7 +140,7 @@ public class cardHolder{
             catch {System.Console.WriteLine("Your pin is incorrect. Please try again"); }
         }
 
-        System.Console.WriteLine("Welcome" + currentUser.getFristName() + ": )");
+        System.Console.WriteLine("Welcome" + currentUser.getFristName() + ":)");
         int option = 0;
         do {
             printOptions();
